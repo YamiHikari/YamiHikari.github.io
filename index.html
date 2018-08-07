@@ -1,7 +1,7 @@
 <html lang='en'>
 	<head>
 		<title> The Useless Web!</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=yes">
 		<link href="https://fonts.googleapis.com/css?family=Hanalei+Fill" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
 		<style>
@@ -14,7 +14,7 @@
 				font-family: Allura,"Courier";
 				margin-left: 30%;
 				margin-bottom: 0px;
-				font-size: 70px;
+				font-size: 313%;
 
 			}
 			h2{
@@ -29,7 +29,7 @@
 			.clock.icon {
 			  color: #000;
 			  position: absolute;
-			  margin-left: 45%;
+			  margin-left: 42%;
 			  margin-top: 2px;
 			  width: 100px;
 			  height: 100px;
@@ -60,29 +60,50 @@
 			          transform-origin: 0% 0%;
 			}
 			#yt{
-				margin-left:30%;
+				margin-left:10%;
+                width:80%;
+                height:30%;
+                
 			}
 			p{
 				font-family: 'Courier';
-				font-size: 20px;
+                margin-left:10%;
+				font-size: 120%;
+                margin-bottom: 0;
 			}
             .giphy-embed{
-                width:600px;
-                height:300px;
-                margin-left:30%;
+                width:70%;
+                height:40%;
+                margin-left:15%;
+                
                 
             }
-
+            #end{
+                border:3px inset #6816e0 ;
+            }
+            span{
+                text-decoration: underline #b19cd1;
+            }
+           #grad {
+                margin:5px 0 0 0;
+                height: 150px;
+                width: 100%;
+                background: #D7B4BA; /* For browsers that do not support gradients */
+                background: repeating-radial-gradient(#D7B9C1, white 10%,#CDB2D8 15%); 
+            }
 		</style>
 	</head>	
 	<body>
-		<h1>The Truly Useless Web.</h1><br>
+        <h1>The <span>Truly</span> Useless Web.</h1><br>
 		<hr>
 		<h2>Website Under Construction..</h2>
 		<div class="clock icon"></div>
 		<h2>Coming Soon in Browsers Near You !</h2><br>
        <iframe src="https://giphy.com/embed/TIyJGNK325XGciFEnI" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><br>
 		<hr>
-		<p>Meanwhile,on the useless web..</p>
-		<iframe id="yt" width="669" height="376" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<p>Meanwhile,on the useless web..</p><br>
+		<iframe id="yt" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <p>Also, check out <a href="http://theuselessweb.com">the OG</a>.</p>
+        <p id="end">&oslash LightXDarkX</p>
+        <div id="grad"></div>
 	</body>
